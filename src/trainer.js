@@ -1,13 +1,17 @@
-import * as ui from './ui';
+import * as ui from './ui'
 
 export function connectAsTrainer() {
-  // TODO
+	// TODO
 }
 
 function sendNotificationThatHelpWasProvided() {
-  // TODO
+	// TODO
 }
 
 export function initializeTrainerPart() {
-  ui.addEventListener('#help-provided-button', 'click', sendNotificationThatHelpWasProvided);
+	ui.addEventListener(
+		'#help-provided-button',
+		'click',
+		sendNotificationThatHelpWasProvided
+	)
 }

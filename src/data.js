@@ -1,5 +1,5 @@
 export default {
-  webSocket:      null,
-  role:           null,
-  identification: null,
-};
+	webSocket: null,
+	role: null,
+	identification: null,
+}
